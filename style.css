@@ -16,6 +16,7 @@ body{
     justify-content: center;
     font-family: 'Bungee Spice';
     font-size: 25px;
+    text-shadow: 2px 2px;
 }
 
 .container{
@@ -62,6 +63,6 @@ body{
 }
 
 footer{
-    padding: 8px;
+    margin-top: 18px;
     text-align: center;
 }
