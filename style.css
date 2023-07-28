@@ -2,6 +2,8 @@ body{
     height: fit-content;
     width: auto;
     margin: 0;
+    background-image: url("./etch_a_sketch_images/numerous_yellow_stars_on_a_light_blue_background_1_c67977fa-b078-4313-a67d-d474078cff3a_1.jpg");
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     font-family: 'Tektur';
@@ -13,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Bungee Spice';
+    font-size: 25px;
 }
 
 .container{
@@ -31,6 +34,7 @@ body{
     background-color: red;
     border-radius: 20px;
     border-style: solid;
+    box-shadow: 5px 10px;
     border-color: black;   
 }
 .sketch {
@@ -54,6 +58,7 @@ body{
     height: 80px;
     width: 80px;
     border-radius: 50%;
+    box-shadow: 2px 4px;
 }
 
 footer{
