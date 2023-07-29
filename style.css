@@ -2,9 +2,9 @@ body{
     height: fit-content;
     width: auto;
     margin: 0;
-    background-image: url("./etch_a_sketch_images/Luna_30_little_yellow_hand_drawn_stars_on_a_light_blue_backgro_0.jpg");
+    background-image: url("./etch_a_sketch_images/hand_drawn_stars.jpg");
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     font-family: 'Tektur';
@@ -40,11 +40,12 @@ body{
     border-color: black;   
 }
 .sketch {
-    height: 560px;
-    width: 560px;
+    height: 150mm;
+    width: 150mm;
     display: inline-flex;
     flex-wrap: wrap;
     margin-top: 5mm;
+    margin-bottom: 5mm;
     border-style: solid;
     border-color: black;
     background-color: rgb(255, 255, 255);
@@ -57,8 +58,8 @@ body{
 
 .settings {
     display: flex;
-    height: 15%;
-    width: 100%;
+    height: 35mm;
+    width: 185mm;
     justify-content: space-around;
 }
 
