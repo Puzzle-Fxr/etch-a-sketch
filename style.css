@@ -2,8 +2,9 @@ body{
     height: fit-content;
     width: auto;
     margin: 0;
-    background-image: url("./etch_a_sketch_images/numerous_yellow_stars_on_a_light_blue_background_1_c67977fa-b078-4313-a67d-d474078cff3a_1.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./etch_a_sketch_images/Luna_30_little_yellow_hand_drawn_stars_on_a_light_blue_backgro_0.jpg");
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     font-family: 'Tektur';
@@ -15,8 +16,8 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Bungee Spice';
-    font-size: 25px;
-    text-shadow: 2px 2px;
+    font-size: 7mm;
+    text-shadow: 0.5mm 0.5mm;
 }
 
 .container{
@@ -26,26 +27,32 @@ body{
 }
 
 .main {
-    height: 700px;
-    width: 700px;
+    height: 185mm;
+    width: 185mm;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: red;
-    border-radius: 20px;
+    border-radius: 5mm;
     border-style: solid;
-    box-shadow: 5px 10px;
+    box-shadow: 1.3mm 2.6mm;
     border-color: black;   
 }
 .sketch {
-    height: 80%;
-    width: 80%;
-    display: flex;
-    margin-top: 20px;
+    height: 560px;
+    width: 560px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 5mm;
     border-style: solid;
     border-color: black;
     background-color: rgb(255, 255, 255);
+}
+
+.square {
+    position: relative;
+    display: flex;
 }
 
 .settings {
@@ -56,13 +63,13 @@ body{
 }
 
 .button {
-    height: 80px;
-    width: 80px;
+    height: 21mm;
+    width: 21mm;
     border-radius: 50%;
-    box-shadow: 2px 4px;
+    box-shadow: 0.5mm 1mm;
 }
 
 footer{
-    margin-top: 18px;
+    margin-top: 5mm;
     text-align: center;
 }
